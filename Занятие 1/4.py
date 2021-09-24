@@ -4,4 +4,4 @@ sec= seconds % 60
 min = seconds // 60 % 60
 h = seconds // 60 // 60 % 24
 d = seconds // 86400
-print(f'{d}:{h}:{min}:{sec}')
+print(d,':',h,':',min,':',sec)
