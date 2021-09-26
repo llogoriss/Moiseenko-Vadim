@@ -8,4 +8,3 @@ elif x == y or z==y or x == z:
     print('2')
 else:
     print('0')
-    
