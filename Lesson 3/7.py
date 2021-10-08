@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
-n1 = 1
+fact = 1
+fact_sum = 0
 n = int(input('Введите число n: '))
 for i in range(1, n + 1):
-    n1 *= i
-print('Итог:', n1)
+    fact *= i
+    fact_sum += fact
+print('Итог: ', fact_sum)

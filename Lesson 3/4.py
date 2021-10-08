@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 s = 0
 n = int(input('Введите число N - '))
 for i in range(n):
