@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
-a = int(input('Введите число a - '))
-b = int(input('Введите число b - '))
-for i in range(a, b - 1, -1):
-    if i % 2 !=0:
-        print(i)
+def c():
+    a = int(input('Введите число a - '))
+    b = int(input('Введите число b - '))
+    for i in range(a, b - 1, -1):
+        if i % 2 !=0:
+            print(i)
+    return 'Конец'
+print(c())
