@@ -5,4 +5,5 @@ def lin():
     while n % i != 0:
         i += 1
     print(i)
+    return "Конец"
 print(lin())
