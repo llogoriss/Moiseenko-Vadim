@@ -6,7 +6,7 @@ public class Main {
     FurnitureFactory factory = new FurnitureFactory();
 
     Furniture chair = factory.createFurniture("Офисный стул", "chair");
-    Furniture table = factory.createFurniture("Кухонный стол", "table");
+    Furniture table = factory.createFurniture("Кухoнный стол", "table");
     Furniture cabinet = factory.createFurniture("Книжный шкаф", "cabinet");
 
     System.out.println(chair.describe());
